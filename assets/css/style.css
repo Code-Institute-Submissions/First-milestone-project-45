@@ -1,17 +1,44 @@
-.heading .title {
+h1 {
+    
+}
+#cover-text {
     font-family: 'Manrope', sans-serif;
-    font-size: 50px;
+    font-size: 200px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    color: green;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 400px;
+   
+    
+    color: rgb(231, 241, 231);
+    background-color: rgba(116, 157, 180, 0.7);
 }
 
-.bg-color-heading-title {
-    padding: 0;
-    margin: 0;
-    width: 70%;
-    
-    position: relative;
-    left: 200px;
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top-text h3 {
+    padding: 20px 10px;
+}
+
+.top-text p {
+    padding: 20px 20px;
+}
+
+.card-group {
+    margin-bottom: 50px;
+}
+
+.card-deck {
+    margin-bottom: 50px;
+}
+
+.social-links li a i {
+    padding: 40px 20px;
+    font-size: 30px;
 }

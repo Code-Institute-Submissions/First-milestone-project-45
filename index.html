@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Greener Homes</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <script
       src="https://kit.fontawesome.com/a699de203e.js"
       crossorigin="anonymous"
@@ -29,77 +23,48 @@
   <body>
     <!--Heading and navbar and dropdown menu --->
     <header>
-      <div class="row no-gutters">
-        <div class="col-md-12">
-          <div class="row no-gutters bg-color-heading-title">
-            <div class="col heading">
-              <h1 class="title">Greener Homes</h1>
-              <img
-                src="../assets/images/falloxbow.jpg"
-                class="img-fluid"
-                alt="Responsive image"
-              />
-            </div>
-          </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More Resources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Earthships</a>
+          <a class="dropdown-item" href="#">Tiny Houses</a>
+          <a class="dropdown-item" href="#">Shipping Container Homes</a>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="card bg-dark text-white">
+  <img src="../assets/images/falloxbow.jpg" class="card-img" alt="image of nature">
+  <div class="card-img-overlay">
+    <div id="cover-text"><h1 class="card-title">Greener Homes</h1></div>
+    <p class="card-text"></p>
+  </div>
+</div> 
     </header>
     <!--Why live in an eco home?-->
     <section>
       <div class="row">
-        <div class="col-md-12">
-          <h3>Why live in an eco home?</h3>
-          <p>
+        <div class="col-md-12 top-text">
+          <h3 class="text-center">Why live in an eco home?</h3>
+          <p class="text-center">
             Lower cost, affordable, mortgage free, better for the environment,
             off the grid living, ecologically sustainable...
           </p>
@@ -109,104 +74,93 @@
     <!--Image, links and description of 3 types of eco homes-->
     <!--Earthships-->
     <section>
-      <div class="row">
-        <div class="col-md-8">
-          <h3>Earthships</h3>
-          <img
-            src="../assets/images/earthship01.jpg"
-            alt="image of an earthship house"
-            class="img-thumbnail-earthship"
-          />
-        </div>
-        <div class="col-md-4">
-          <p>
-            Built with natural, recycled materials, Earthships create
+    <div class="card-group">
+    <div class="card">
+    <img src="../assets/images/earthship01.jpg" class="card-img-top" alt="image of an earthship house">
+    <div class="card-body">
+      <h5 class="card-title">Earthships</h5>
+      <p class="card-text">Built with natural, recycled materials, Earthships create
             comfortable and cosy living spaces without relying on public
             utilities. They're totally self-sufficient, producing their own
             electricity, heating and food, whilst managing sustainable water
-            harvesting and sewage systems too.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!--Tiny Houses-->
-    <section>
-      <div class="row no-gutter">
-        <div class="col-md-8">
-          <h3>Tiny Houses</h3>
-          <img
-            src="../assets/images/tinyhouse01.jpg"
-            class="img-fluid"
-            alt="Responsive image"
-          />
-        </div>
-        <div class="col-md-4">
-          <p>
-            At Tiny Eco Homes UK Ltd we specialise in custom built road legal
+            harvesting and sewage systems too.</p>
+            <a href="#" class="btn btn-primary">More Info</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../assets/images/tinyhouse01.jpg" class="card-img-top" alt="image of a tiny house">
+    <div class="card-body">
+      <h5 class="card-title">Tiny Houses</h5>
+      <p class="card-text">At Tiny Eco Homes UK Ltd we specialise in custom built road legal
             tiny houses for customers across the UK. We do not just supply
             standard fully built tiny houses, 90% of our custom builds are fully
             bespoke and are designed by our clients to suit their needs. There
             are unlimited designs and options when building a tiny house, so let
-            your imagination run wild as there is nothing we can not do
-          </p>
+            your imagination run wild as there is nothing we can not do</p>
+        <a href="#" class="btn btn-primary">More Info</a>
         </div>
-      </div>
-    </section>
-    <!--Shipping Container Homes-->
-    <section>
-      <div class="row">
-        <div class="col-md-8">
-          <h3>Shipping Container Homes</h3>
-          <img
-            src="../assets/images/shipcontainer01.jpg"
-            class="img-fluid"
-            alt="Responsive image"
-          />
-        </div>
-        <div class="col-md-4">
-          <p>
-            To some the thought of building a house out of steel shipping
+  </div>
+  <div class="card">
+    <img src="../assets/images/shipcontainer01.jpg" class="card-img-top" alt="image of a shipping container house">
+    <div class="card-body">
+      <h5 class="card-title">Shipping Container Houses</h5>
+      <p class="card-text">To some the thought of building a house out of steel shipping
             containers fills them with dread. However the real picture is
             somewhat different as both architects and self build home owners
             have proved that beautiful structures including houses can be built
             using this method. The flexibility of adding more space when needed,
             the cost savings from conventional building methods and the choice
-            of finish makes the shipping container home a thing of beauty.
-          </p>
+            of finish makes the shipping container home a thing of beauty.</p>
+            <a href="#" class="btn btn-primary">More Info</a>
         </div>
-      </div>
-    </section>
-    <!--Related content-->
-    <section>
-     <div class="container">
-  <div class="row row-cols-3">
-    <div class="col">Self Builds</div>
-    <div class="col">Zero Waste Living</div>
-    <div class="col">Eco Home Products</div>
+  </div>
+</div>
+   <!--Related content--> 
+    <div class="card-deck">
+  <div class="card">
+    <img src="../assets/images/Horseshoe-Farm-Residence-by-Buildsense-9-889x565.jpg" class="card-img-top" alt="image of an off the grid house">
+    <div class="card-body">
+      <h5 class="card-title">Off The Grid Living</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <a href="#" class="btn btn-primary">More Info</a>
+    </div>
+  </div>
+  <div class="card" style="height: 35rem;">
+    <img src="../assets/images/zero-waste-pexels-photo-3735184.jpeg" class="card-img-top h-50 d-inline-block" alt="image of a pyramid of the 5Rs of Zero Waste Living">
+    <div class="card-body">
+    
+      <h5 class="card-title">Zero Waste Living</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">More Info</a>
+    </div>
+  </div>
+  <div class="card" style="height: 35rem;">
+    <img src="../assets/images/eco-home-products.jpg" class="card-img-top" alt="image of eco home products">
+    <div class="card-body">
+      <h5 class="card-title">Eco Home Products</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <a href="#" class="btn btn-primary">More Info</a>
+    </div>
   </div>
 </div>
     </section>
     <!--Sign up to latest news / Social links-->
     <footer>
-      <form>
-        <div class="form-group row">
-          <label for="colFormLabel" class="col-sm-2 col-form-label"
-            >Email</label
-          >
-          <div class="col-sm-10">
-            <input
-              type="email"
-              class="form-control"
-              id="colFormLabel"
-              placeholder="For the latest news updates!"
-            />
-          </div>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Sign Up!</button>
-        </div>
-      </form>
-      <div class="col-sm-4">
+    <div class="card mx-auto" style="width: 40rem;">
+  <div class="card-body">
+    <h3 class="card-title">Receive the latest news from Greener Homes</h3>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter your email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+   <a href="#" class="btn btn-primary">Sign Up!</a>
+    </form>
+  </div>
+</div>
+     
+      <div class="col-sm-4 mx-auto">
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a target="_blank" href="#">
