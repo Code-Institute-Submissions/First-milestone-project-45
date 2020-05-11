@@ -1,25 +1,20 @@
-h1 {
-    
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(69, 71, 69);
 }
-#cover-text {
-    font-family: 'Manrope', sans-serif;
-    font-size: 200px;
+
+.display-4.home-title {
+    font-size: 100px;
+    color: rgb(69, 71, 69);
     text-align: center;
-    width: 100%;
-    height: 150px;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    top: 400px;
-   
-    
-    color: rgb(231, 241, 231);
-    background-color: rgba(116, 157, 180, 0.7);
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.card-img-overlay {
+    padding: 0;
 }
 
 .top-text h3 {
@@ -30,6 +25,11 @@ h1 {
     padding: 20px 20px;
 }
 
+.rel-info-bg {
+    padding: 20px 20px;
+
+}
+
 .card-group {
     margin-bottom: 50px;
 }
@@ -38,7 +38,39 @@ h1 {
     margin-bottom: 50px;
 }
 
+.signup-card {
+    top: 300px;
+}
+
+.signup-image {
+    height: 600px;
+}
+
+.form-group {
+   
+}
+
+.social-links-grp {
+    text-align: center;
+}
+
 .social-links li a i {
-    padding: 40px 20px;
+    padding: 40px 10px;
     font-size: 30px;
+}
+
+footer {
+    padding: 10px 10px;
+    text-align: center;
+    color: rgb(69, 71, 69);;
+}
+/*---------------------------about us*/
+
+.display-4.about-title  {
+    text-align: center;
+    font-size: 100px;
+}
+
+.about-container p {
+    text-align: center;
 }
