@@ -74,3 +74,7 @@ footer {
 .about-container p {
     text-align: center;
 }
+
+.img-fluid.about-bkgd {
+    margin-top: 65px;
+}
