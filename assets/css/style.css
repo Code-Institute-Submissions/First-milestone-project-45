@@ -31,7 +31,10 @@ body {
 
 .rel-info-bg {
     padding: 20px 20px;
+}
 
+.rel-info-bg h2 {
+    padding: 20px;
 }
 
 .card-group {
@@ -79,9 +82,9 @@ footer {
 }
 /*---------------------------about us*/
 
-.display-4.about-title  {
-    text-align: center;
+.about-title  {
     font-size: 100px;
+    text-align: center;
 }
 
 .about-container p {
@@ -92,12 +95,46 @@ footer {
     margin-top: 50px;
 }
 
+/*---------------------------resources*/
+.container.website-title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.container.website-links-container {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container.video-title {
+    margin-bottom: 50px;
+}
+
+.container.video-container {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container.book-title {
+    margin-bottom: 50px;
+}
+
+.container.book-card-container {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
 /*---------------------------contact*/
 
 .contact-form-bg {
     /*background-image: url('../images/falloxbow.jpg');*/
     background-color: rgb(69, 71, 69);
     padding: 50px;
+    margin-bottom: 30px;
     color: white;
+}
 
+
+.social-links li a i {
+    color: rgb(31, 160, 31);
+    padding: 20px;
 }
