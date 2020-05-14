@@ -10,7 +10,11 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
+    
+}
+
+.col-md-12.home-container {
+    margin-top: 50px;
 }
 
 .card-img-overlay {
@@ -34,16 +38,25 @@ body {
     margin-bottom: 50px;
 }
 
+.ecohome-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.related-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .card-deck {
     margin-bottom: 50px;
 }
 
-.signup-card {
-    top: 300px;
-}
 
-.signup-image {
-    height: 600px;
+.container.signup-container {
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(69, 71, 69);
 }
 
 .form-group {
@@ -76,5 +89,15 @@ footer {
 }
 
 .img-fluid.about-bkgd {
-    margin-top: 65px;
+    margin-top: 50px;
+}
+
+/*---------------------------contact*/
+
+.contact-form-bg {
+    /*background-image: url('../images/falloxbow.jpg');*/
+    background-color: rgb(69, 71, 69);
+    padding: 50px;
+    color: white;
+
 }
