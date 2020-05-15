@@ -90,10 +90,6 @@ footer {
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-container p {
-    text-align: center;
-}
-
 .img-fluid.about-bkgd {
     margin-top: 20px;
 }
@@ -129,7 +125,6 @@ footer {
 /*---------------------------contact*/
 
 .contact-form-bg {
-    /*background-image: url('../images/falloxbow.jpg');*/
     background-color: rgb(69, 71, 69);
     padding: 50px;
     margin-bottom: 30px;
