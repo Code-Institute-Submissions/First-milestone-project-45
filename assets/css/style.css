@@ -9,24 +9,16 @@ body {
     text-align: center;
 }
 
-.navbar {
-    
-}
-
 .col-md-12.home-container {
     margin-top: 50px;
 }
 
+.home-container p {
+    padding: 20px;
+}
+
 .card-img-overlay {
     padding: 0;
-}
-
-.top-text h3 {
-    padding: 20px 10px;
-}
-
-.top-text p {
-    padding: 20px 20px;
 }
 
 .rel-info-bg {
@@ -60,12 +52,6 @@ body {
     height: 350px;
     width: 100%;
     padding: 20px;
-   /* background-color: rgb(82, 100, 82);*/
-    
-}
-
-.form-group {
-   
 }
 
 .social-links-grp {
@@ -88,6 +74,11 @@ footer {
     font-size: 100px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    
+}
+
+.about-container p {
+    padding: 0px;
 }
 
 .img-fluid.about-bkgd {
@@ -123,6 +114,11 @@ footer {
 }
 
 /*---------------------------contact*/
+
+.contact-info p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 .contact-form-bg {
     background-color: rgb(69, 71, 69);
