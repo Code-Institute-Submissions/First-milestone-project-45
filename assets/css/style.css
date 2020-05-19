@@ -9,13 +9,20 @@ body {
     text-align: center;
 }
 
-.col-md-12.home-container {
-    margin-top: 50px;
+.col-md-12.home-image { 
+    background-image: url('../images/home-bkgd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .home-container p {
     padding: 20px;
 }
+
 
 .card-img-overlay {
     padding: 0;
@@ -77,15 +84,38 @@ footer {
     
 }
 
+.col-md-12.about-image {
+    background-image: url('../images/aboutus-bkgd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .about-container p {
     padding: 0px;
 }
 
-.img-fluid.about-bkgd {
-    margin-top: 20px;
-}
 
 /*---------------------------resources*/
+
+.col-md-12.resource-heroimage {
+    background-image: url('../images/resource-bkgd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.display-4.resource-title  {
+    font-size: 100px;
+    text-align: center;
+}
+    
 .container.website-title {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -115,6 +145,21 @@ footer {
 
 /*---------------------------contact*/
 
+.col-md-12.contact-image {
+    background-image: url('../images/contact-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.display-4.contact-title  {
+    font-size: 100px;
+    text-align: center;
+}
+
 .contact-info p {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -131,4 +176,30 @@ footer {
 .social-links li a i {
     color: rgb(31, 160, 31);
     padding: 20px;
+}
+
+/*---------------------------media queries*/
+
+@media (max-width: 562px) {
+    .display-4.home-title {
+    font-size: 70px;
+}
+}
+
+@media (max-width: 562px) {
+    .display-4.about-title {
+    font-size: 70px;
+}
+}
+
+@media (max-width: 562px) {
+    .display-4.resource-title {
+    font-size: 70px;
+}
+}
+
+@media (max-width: 562px) {
+    .display-4.contact-title {
+    font-size: 70px;
+}
 }
