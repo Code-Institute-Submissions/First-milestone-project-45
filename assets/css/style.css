@@ -3,7 +3,7 @@ body {
     color: rgb(69, 71, 69);
 }
 
-/*---------------Index.html------------------*/
+/*--------------------INDEX.html------------------*/
 
 .display-4.home-title {
     font-size: 100px;
@@ -76,7 +76,7 @@ footer {
     color: rgb(69, 71, 69);;
 }
 
-/*---------------------------resources*/
+/*-----------------RESOURCES.html-----------------------*/
 
 .col-md-12.resource-heroimage {
     background-image: url('../images/resource-bkgd.jpg');
@@ -94,6 +94,10 @@ footer {
     margin-top: 10px;
 }
     
+.resource-title-container h2 {
+    padding: 10px;
+}
+
 .container.website-title {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -128,7 +132,7 @@ footer {
     margin-bottom: 30px;
 }
 
-/*---------------------------contact*/
+/*--------------------CONTACT.html---------------------*/
 
 .col-md-12.contact-image {
     background-image: url('../images/aboutus-bkgd.jpg');
@@ -163,7 +167,7 @@ footer {
     padding: 20px;
 }
 
-/*---------------------------media queries*/
+/*-------------------MEDIA QUERIES--------------------*/
 
 @media (max-width: 562px) {
     .display-4.home-title {
