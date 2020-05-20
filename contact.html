@@ -86,9 +86,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12 contact-info">
+        <div class="col-md-12 text-center contact-info">
           <h2>Let's Get In Touch!</h2>
-          <p class="lead">
+          <p class="lead text-center">
             If you would like to contact us on any other information or
             resources please fill in the form below, we look forward to hearing
             from you!
@@ -98,17 +98,16 @@
     </div>
     </section>
     <section>
-      <div class="container contact-form-bg">
+      <div class="container contact-form">
         <div class="row">
-          <div class="col">
+          <div class="col-md-6 mx-auto contact-form-bg">
             <form>
               <div class="form-group">
                 <label for="exampleInputFullname1">Full Name</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="exampleInputPassword1"
-                />
+                  id="exampleInputPassword1" required/>
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
@@ -116,8 +115,7 @@
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                />
+                  aria-describedby="emailHelp" required/>
                 <small id="emailHelp" class="form-text text-muted"
                   >We'll never share your email with anyone else.</small
                 >
@@ -127,10 +125,10 @@
                 <textarea
                   class="form-control"
                   id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
+                  rows="3" required></textarea>
               </div>
               <button type="submit" class="btn btn-success">Submit</button>
+              
             </form>
           </div>
         </div>
