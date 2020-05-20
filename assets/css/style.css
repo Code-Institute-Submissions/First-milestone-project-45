@@ -3,6 +3,8 @@ body {
     color: rgb(69, 71, 69);
 }
 
+/*---------------Index.html------------------*/
+
 .display-4.home-title {
     font-size: 100px;
     color: rgb(69, 71, 69);
@@ -55,11 +57,8 @@ body {
     margin-bottom: 50px;
 }
 
-
 .container.signup-container {
-    height: 350px;
     width: 100%;
-    padding: 20px;
 }
 
 .social-links-grp {
@@ -69,6 +68,7 @@ body {
 .social-links li a i {
     padding: 40px 10px;
     font-size: 30px;
+    color: rgb(31, 160, 31);
 }
 
 footer {
@@ -85,15 +85,7 @@ footer {
     
 }
 
-.col-md-12.about-image {
-    background-image: url('../images/aboutus-bkgd.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-    margin-top: 30px;
-}
+
 
 .about-container p {
     padding: 0px;
@@ -148,14 +140,15 @@ footer {
 /*---------------------------contact*/
 
 .col-md-12.contact-image {
-    background-image: url('../images/contact-background.jpg');
+    background-image: url('../images/aboutus-bkgd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-    margin-top: 30px;
     width: 100%;
+    margin-top: 30px;
 }
+
 
 .display-4.contact-title  {
     font-size: 100px;
