@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(69, 71, 69);
@@ -26,22 +27,6 @@ body {
     padding: 20px;
 }
 
-.card-img-overlay {
-    padding: 0;
-}
-
-.rel-info-bg {
-    padding: 20px 20px;
-}
-
-.rel-info-bg h2 {
-    padding: 20px;
-}
-
-.card-group {
-    margin-bottom: 50px;
-}
-
 .ecohome-container {
     margin-left: 10px;
     margin-right: 10px;
@@ -52,7 +37,7 @@ body {
     margin-right: 10px;
 }
 
-.card-deck {
+.card-deck-index {
     margin-bottom: 50px;
 }
 
@@ -160,11 +145,6 @@ footer {
     padding: 20px;
     margin-bottom: 30px;
     color: white;
-}
-
-.social-links li a i {
-    color: rgb(31, 160, 31);
-    padding: 20px;
 }
 
 /*-------------------MEDIA QUERIES--------------------*/
