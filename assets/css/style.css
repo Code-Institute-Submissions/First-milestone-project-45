@@ -151,6 +151,18 @@ footer {
 
 /*-------------------MEDIA QUERIES--------------------*/
 
+@media (min-width: 992px) {
+    .book-resource {
+    height: 250px;
+}
+}
+
+@media (min-width: 768px) {
+    .book-resource {
+    height: 260px;
+}
+}
+
 @media (max-width: 562px) {
     .display-4.home-title {
     font-size: 70px;
