@@ -1,9 +1,9 @@
 # Testing
 
-Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. Results: ??
+Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. Results: No significant errors found.
 
 
-Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. Results: ??
+Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. Results: No errors found.
 
 #### User stories:
 
@@ -13,11 +13,7 @@ Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the di
 
 User goes to the website and on the home page, resource page and contact us page there is a simple navigation bar fixed on the top of the page. Wherever they scroll down to on each page the navigation menu bar is there for them to click and go to another page. When you hover over the words the colour of the text goes a darker grey colour.
 
-- User wants to know what page they are on.
-
-- User wants to know what this website is about and how it can help them.
-
-Go to the home page and there is an ‘About Us’ section explaining what the website is about and what help it provides.
+- User wants to be able to use it on desktop, tablet and mobile devices.
 
 - User wants to find out what eco homes are.
 
