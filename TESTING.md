@@ -4,7 +4,7 @@ Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website v
 
 Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. Results: No errors found.
 
-#### User stories:
+## User stories:
 
 - User wants a simple and clean looking website as messy, busy pages with lots of information overwhelms them.
 
@@ -62,7 +62,9 @@ Go to navigation menu bar and click on ‘More Resources’. Under the ‘Websit
 
 Go the resource page and scroll down to the section ‘Video Links’ there are three short YouTube videos introducing each of the three eco home concepts.
 
-*Bug*: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. Rectified by moving the `>` to the end of `allowfullscreen` 
+*Bug*: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
+
+*Debugged*: Moved the `>` to the end of `allowfullscreen` 
 
 All videos play on the website when you click on them.
 
@@ -370,7 +372,7 @@ The horizontal divider and social links are centred at the bottom of the page. T
 Google Chrome all the testing information has been tested on Chrome browser using DevTools.
 
 Mozilla Firefox browser responsiveness is good on desktop, tablet and phone. Only difference found 
-is the website links on the 'Resources page' where the blue border does not appear but the 
+is the website links on the 'Resources page' where the blue border does not appear but  
 when clicked the cell is a darker shade of green and stays that way when the user come back
 the Greener Homes site.
 
@@ -387,7 +389,7 @@ Used a card element for sign up form and added a form element inside and changed
 
 Font was different on one of the three pages, so had to re-copy and paste the code again.
 
-My images weren’t showing up in preview or GitHub but a tutor saw that I had ‘../‘ in front of the pathway and by deleting them it worked.
+My images weren’t showing up in preview or GitHub but a tutor saw that I had `../` in front of the pathway and by deleting them it worked.
 
 Tutor Tim helped clarify what code to use when with col sizes and directed me to css page https://www.w3schools.com/cssref/pr_background-image.asp to help with background image responsiveness. So updated all the hero images on 4 pages.
 
