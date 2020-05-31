@@ -2,18 +2,23 @@
 
 Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. Results: No significant errors found.
 
-
 Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. Results: No errors found.
 
 #### User stories:
 
 - User wants a simple and clean looking website as messy, busy pages with lots of information overwhelms them.
 
+User views the homepage and sees that the colour scheme and layout is very clean and simple, the images and content is well spaced out.
+With 3 pages all with the same consistent style, with quality images and brief descriptions throughout so not to overwhelm users with 
+too much information.
+
 - User wants an easy to navigate website to save time and not get frustrated or lost.
 
 User goes to the website and on the home page, resource page and contact us page there is a simple navigation bar fixed on the top of the page. Wherever they scroll down to on each page the navigation menu bar is there for them to click and go to another page. When you hover over the words the colour of the text goes a darker grey colour.
 
 - User wants to be able to use it on desktop, tablet and mobile devices.
+
+Users who are browsing with Chrome, Safari and Firefox can use the website on desktop, tablet and mobile views with full responsiveness.
 
 - User wants to find out what eco homes are.
 
@@ -47,7 +52,11 @@ Go to navigation menu bar and click on ‘More Resources’. Under the ‘Websit
 
 *Bug*: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
 
-The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+*Debugged*: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
+
+*Bug*: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+
+*Debugged*: Changed all the background colour links to light green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
 
 - User doesn’t want to read any more information and wants to watch an informative video of one of the eco home concepts.
 
@@ -71,9 +80,9 @@ Fill in the ‘Full Name’ field, ‘Email Address’ field and ‘Message’ f
 
 *Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
-If the ‘Full Name’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
-If the ‘Email Address’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Email Address’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
 If the ‘Email Address’ field is not valid and you click the ‘Submit’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
@@ -88,6 +97,8 @@ The ‘Submit’ button goes a darker green when you hover over it and when you 
 Go to the navigation menu bar and click on ‘Home’, scroll down to the ‘Related Interests’ section and click on ‘More Info’ in the ‘Eco Home Products’ card.
 
   - User wants to know the cost of an earthship, tiny house or shipping container home in the UK.
+
+Go to the resources page and within the website links there is information for how to calculate how much it would cost. As it depends on where you buy land and what size your home is, the modern conveniences you need, where you get your energy source from, where you get your water from and other factors.
 
 # Responsiveness of website
 
@@ -151,9 +162,11 @@ The three group lists displaying the website links are in three columns, each wi
 All links open up to an external website in a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
 *Bug*: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
+
 *Debugged*: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
 
 *Bug*: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+
 *Debugged*: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
 
 The next heading ‘Video Links’ and the horizontal divider are centred on the page.
@@ -161,15 +174,21 @@ The next heading ‘Video Links’ and the horizontal divider are centred on the
 The three embedded videos are neatly in line and in a row, equally spaced apart. Only the right video can go to full screen when you click the full screen icon.
 
 *Bug*: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
+
 *Debugged*: Rectified by moving the `>` at the end of `allowfullscreen`
 
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
 
 The five cards displaying the five recommended books: ‘Zero Waste Home’, ‘Tiny House Living’, ‘Building with Cob’ ‘Zero Waste’ and ’How to Live Off Grid’, are in a neat row equally spaced and in line, the content is centred within the border of the card.
+
 *Bug*: There is too much white space between the text and the card footer. 
+
 *Debugged*: Added media queries to change the height of the card footer for desktop and tablet screens.
 
-The green text links are in the card footer also within the border. *Bug*: Needs to be centred. 
+The green text links are in the card footer also within the border. 
+
+*Bug*: Needs to be centred. 
+
 *Debugged*: Added text-center class.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row.
@@ -195,6 +214,7 @@ The next heading ‘Video Links’ and the horizontal divider are centred on the
 The three embedded videos are neatly in line and in a row, equally spaced apart. All videos play but only the right video can go to full screen when you click the full screen icon.
 
 *Bug*: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
+
 *Debugged*: Rectified by moving the `>` at the end of `allowfullscreen`
 
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
@@ -204,9 +224,13 @@ The five cards displaying the five recommended books: ‘Zero Waste Home’, ‘
 All links opens up a new tab to the external website.
 
 *Bug*: There is too much white space between the text and the card footer.
+
 *Debugged*: Added media queries to change the height of the card footer for desktop and tablet screens.
 
-The green text links are in the card footer are within the border. *Bug*: Needs to be centred.
+The green text links are in the card footer are within the border. 
+
+*Bug*: Needs to be centred.
+
 *Debugged*: Added text-center class.
  
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
@@ -224,9 +248,11 @@ The three group lists displaying the website links are in one column displaying 
 All links open up to an external website in a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
 *Bug*: The last link of the three lists has a yellow border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that. 
+
 *Debugged*: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
 
 *Bug*: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+
 *Debugged*: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
   
 The next heading ‘Video Links’ and the horizontal divider are centred on the page.
@@ -236,6 +262,7 @@ The three embedded videos are neatly in one column fitting the width of the scre
 *Bug*: When in full screen the full screen icon disappears but if you click in that area it goes back to a smaller screen.
 
 *Bug*: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
+
 *Debugged*: Rectified by moving the `>` at the end of `allowfullscreen`
   
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
@@ -244,7 +271,10 @@ The five cards displaying the five recommended books: ‘Zero Waste Home’, ‘
 
 All links opens up a new tab to the external website.
 
-The green text links are in the card footer are within the border. *Bug*: Text needs to be centred.
+The green text links are in the card footer are within the border. 
+
+*Bug*: Text needs to be centred.
+
 *Debugged*: Added text-center class.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
@@ -261,9 +291,9 @@ When user selects a text area a thin blue border appears.
 
 *Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
-If the ‘Full Name’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
-If the ‘Email Address’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Email Address’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
 If the ‘Email Address’ field is not valid and you click the ‘Submit’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
@@ -277,8 +307,6 @@ The horizontal divider and social links are centred at the bottom of the page. T
 
 ### Contact.html in iPad/iPad Pro view.
 
-  
-
 In iPad mode, the navigation menu bar on the top is fixed and the words are displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens.
 
 *Bug*: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
@@ -288,13 +316,14 @@ The hero image displays the full width of the browser with no distortions just t
 The form is centred is centred on the page. All the text and text box areas are equally spaced and within the border of the form.
 
 When user selects a text area a thin blue border appears. 
+
 *Bug*: Border is too thin it's very hard to see.
 
 *Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
-If the ‘Full Name’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
-If the ‘Email Address’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Email Address’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
 If the ‘Email Address’ field is not valid and you click the ‘Submit’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
@@ -322,9 +351,9 @@ When user selects a text area a thin blue border appears.
 
 *Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
-If the ‘Email Address’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Email Address’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
-If the ‘Full Name’ field is not filled then the message ‘Please fill in this field’ appears.
+If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
 If the ‘Email Address’ field is not valid and you click the ‘Submit’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
@@ -335,6 +364,18 @@ If the ‘Email Address’ field has been partly filled in with half the email a
 When you click the ‘Submit’ button it goes a darker green and stays that colour until you click on another part of the screen.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
+
+# Responsiveness on different browsers:
+
+Google Chrome all the testing information has been tested on Chrome browser using DevTools.
+
+Mozilla Firefox browser responsiveness is good on desktop, tablet and phone. Only difference found 
+is the website links on the 'Resources page' where the blue border does not appear but the 
+when clicked the cell is a darker shade of green and stays that way when the user come back
+the Greener Homes site.
+
+Safari browser responsiveness is the same as Chrome browser, no bugs.
+
 
 ## Bugs whilst creating the website:
 
@@ -360,6 +401,14 @@ Answer was applying zero to margin and padding to body in css.
 
 Horizontal divider line on resource page was going across the width of page so had to move the container end tag div to the end of the section so the padding would apply to all the child elements.
 
+## Bugs not fixed yet:
 
-5) List any bugs you came across while creating the site and while testing it. Include the fixes you came up with. (I have two sections here, one for fixed bugs and one for bugs I have not found a solution for yet.)
+
+*Bug*: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+
+*Bug*: The blue border in the form fields when they are clicked are too thin it's very hard to see.
+
+*Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+
+*Bug*: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
 
