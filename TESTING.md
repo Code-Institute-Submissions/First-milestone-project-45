@@ -405,10 +405,11 @@ Horizontal divider line on resource page was going across the width of page so h
 
 ## Bugs not fixed yet:
 
+The following bugs would need to be fixed if they have backend technology connected to them but as this is only frontend technology there is no need to fix at this point.
 
 *Bug*: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
-*Bug*: The blue border in the form fields when they are clicked are too thin it's very hard to see.
+*Bug*: The blue border in the form fields when they are clicked are too thin it's very hard to see in tablet or phone view.
 
 *Bug*: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
