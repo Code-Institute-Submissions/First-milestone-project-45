@@ -185,3 +185,9 @@ footer {
     height: 260px;
 }
 }
+
+@media (max-width: 562px) {
+    .social-links li a i {
+    padding: 10px 10px;
+}
+}

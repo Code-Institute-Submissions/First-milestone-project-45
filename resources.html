@@ -236,67 +236,72 @@
           <h3 class="display-4 text-center book-title">Book Resources</h3>
           <hr class="my-4" />
         </div>
-
+    <!-----CODE FOR RESPONSIVE CARD DECKS TAKEN FROM https://bootstrapcreative.com/pattern/responsive-card-deck-example/----->
       <div class="container book-card-container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card-deck">
-              <div class="card">
-                <img
-                  src="assets/images/zerowastehome.jpg"
-                  class="card-img-top book-resource"
-                  alt="image of zero waste home book"/>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5 mx-auto justify-content-md-center justify-content-xl-center">
+          <div class="col mb-4">
+            <div class="card">
+                  <img
+                    src="assets/images/zerowastehome.jpg"
+                    class="card-img-top book-resource"
+                    alt="image of zero waste home book"/>                
+                  <div class="card-body text-center ">
+                    <h5 class="card-title">Zero Waste Home</h5>
+                  </div>
+                  <div class="card-footer text-center">
+                    <a href="https://zerowastehome.com/" target="_blank" class="text-success">Go to Website</a>
+                  </div>                            
+            </div>             
+          </div> 
+          <div class="col mb-4">    
+            <div class="card">
+                  <img
+                    src="assets/images/tinyhouseliving.jpg"
+                    class="card-img-top book-resource"
+                    alt="image of tiny house living book"/>                
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Tiny House Living</h5>
+                  </div>
+                  <div class="card-footer text-center">                  
+                    <a href="https://www.amazon.co.uk/Tiny-House-Living-Building-Square/dp/1440333165"
+                       target="_blank" class="text-success">Buy Now!</a>
+                  </div>               
+            </div>  
+          </div>
+          <div class="col mb-6">      
+            <div class="card">
+                    <img
+                      src="assets/images/cobhouse.jpg"
+                      class="card-img-top book-resource"
+                      alt="image of cob house book"/>
                 
-                <div class="card-body text-center ">
-                  <h5 class="card-title">Zero Waste Home</h5>
-                </div>
-                <div class="card-footer text-center">
-                  <a href="https://zerowastehome.com/" target="_blank" class="text-success">Link to Website</a>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  src="assets/images/tinyhouseliving.jpg"
-                  class="card-img-top book-resource"
-                  alt="image of tiny house living book"/>
-                
-                <div class="card-body text-center">
-                  <h5 class="card-title">Tiny House Living</h5>
-                </div>
-                <div class="card-footer text-center">                  
-                <a  href="https://www.amazon.co.uk/Tiny-House-Living-Building-Square/dp/1440333165"
-                    target="_blank" class="text-success">Buy Now!</a>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  src="assets/images/cobhouse.jpg"
-                  class="card-img-top book-resource"
-                  alt="image of cob house book"/>
-                
-                <div class="card-body text-center">
-                  <h5 class="card-title">Building Cob Houses</h5>
-                </div>
-                <div class="card-footer text-center">                 
-                <a  href="https://www.amazon.co.uk/Building-Cob-Step-step-Sustainable/dp/1903998727"
-                    target="_blank" class="text-success">Buy Now!</a>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  src="assets/images/zerowasteshiasu.jpg"
-                  class="card-img-top book-resource"
-                  alt="image of zero waste book by shia su"/>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Building Cob Houses</h5>
+                  </div>
+                  <div class="card-footer text-center">                 
+                    <a href="https://www.amazon.co.uk/Building-Cob-Step-step-Sustainable/dp/1903998727"
+                       target="_blank" class="text-success">Buy Now!</a>
+                  </div>
+            </div>
+          </div> 
+          <div class="col mb-4">
+            <div class="card">
+                  <img
+                    src="assets/images/zerowasteshiasu.jpg"
+                    class="card-img-top book-resource"
+                    alt="image of zero waste book by shia su"/>
             
-                <div class="card-body text-center">
-                  <h5 class="card-title">Zero Waste Living</h5>
-                </div>
-                <div class="card-footer text-center">                  
-                <a  href="https://www.amazon.co.uk/Zero-Waste-Simple-Drastically-Reduce-ebook/dp/B073XTSVJR"
-                    target="_blank" class="text-success">Buy Now!</a>
-                </div>
-              </div>
-              <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Zero Waste Living</h5>
+                  </div>
+                  <div class="card-footer text-center">                  
+                    <a href="https://www.amazon.co.uk/Zero-Waste-Simple-Drastically-Reduce-ebook/dp/B073XTSVJR"
+                       target="_blank" class="text-success">Buy Now!</a>
+                  </div>
+            </div>                           
+          </div>
+          <div class="col mb-6">
+            <div class="card">
                 <img
                   src="assets/images/offthegrid.jpg"
                   class="card-img-top book-resource"
@@ -306,12 +311,12 @@
                   <h5 class="card-title">Off The Grid Living</h5>
                 </div>
                 <div class="card-footer text-center">                  
-                <a  href="https://www.amazon.co.uk/How-Live-Off-grid-Nick-Rosen/dp/0553818198"
+                  <a href="https://www.amazon.co.uk/How-Live-Off-grid-Nick-Rosen/dp/0553818198"
                     target="_blank" class="text-success">Buy Now!</a>
                 </div>
-              </div>
-            </div>
-          </div>
+            </div>          
+          </div>  
+          
         </div>
       </div>
        <div class="container">
@@ -321,7 +326,7 @@
 
      <!--SOCIAL LINKS CODE BELOW COPIED FROM CODE INSTITUTE UCFD MODULE-->
     <section>
-    <div class="container social-links-container">
+    <div class="container-fluid social-links-container">
     <div class="row">  
       <div class="col-sm-4 col-md-6 mx-auto social-links-grp">
         <ul class="list-inline social-links">
