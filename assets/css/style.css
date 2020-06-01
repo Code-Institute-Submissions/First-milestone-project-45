@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/*--------------------INDEX.html------------------*/
+/*--------------------INDEX.html--------------------*/
 
 .display-4.home-title {
     font-size: 100px;
@@ -47,23 +47,8 @@ body {
     width: 100%;
 }
 
-.social-links-grp {
-    text-align: center;
-}
 
-.social-links li a i {
-    padding: 20px 20px;
-    font-size: 30px;
-    color: rgb(31, 160, 31);
-}
-
-footer {
-    padding: 10px 10px;
-    text-align: center;
-    color: rgb(69, 71, 69);
-}
-
-/*-----------------RESOURCES.html-----------------------*/
+/*------------------RESOURCES.html-----------------------*/
 
 .col-md-12.resource-heroimage {
     background-image: url('../images/resource-bkgd.jpg');
@@ -85,6 +70,8 @@ footer {
     padding: 10px;
 }
 
+/*-----------------WEBSITE LINKS---------------*/
+
 .container.website-title {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -98,6 +85,8 @@ footer {
     padding: 10px;
 }
 
+/*------------------VIDEO LINKS-----------------*/
+
 .container.video-title {
     margin-bottom: 50px;
 }
@@ -109,6 +98,8 @@ footer {
 .video-link {
     padding: 10px;
 }
+
+/*-------------------BOOK LINKS-------------------*/
 
 .container.book-title {
     margin-bottom: 50px;
@@ -147,6 +138,27 @@ footer {
     margin-bottom: 30px;
     color: white;
 }
+
+/*------------------SOCIAL LINKS------------------*/
+
+.social-links-grp {
+    text-align: center;
+}
+
+.social-links li a i {
+    padding: 20px 20px;
+    font-size: 30px;
+    color: rgb(31, 160, 31);
+}
+
+/*-----------------------FOOTER-----------------------*/
+
+footer {
+    padding: 10px 10px;
+    text-align: center;
+    color: rgb(69, 71, 69);
+}
+
 
 /*-------------------MEDIA QUERIES--------------------*/
 
