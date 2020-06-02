@@ -257,7 +257,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 
 8. The page refreshes and goes back to the top of the page, scroll down to ‘Github Pages’ section and find ‘Your site is ready to be published at ________’ with your link. The website is deployed.
 
-[Follow this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+   [Follow this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 on how to deploy to Github pages.
 
 ## How to run code from my First Milestone Project by cloning in Github to Repl:
