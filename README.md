@@ -120,7 +120,7 @@ media homepage as there are no [Greener Homes](https://karzuin.github.io/First-m
 I chose a simple clean font called 'Open Sans' to stay consistent with the overall look of being simple and clean. The font colours of grey: rgb(69, 71, 69),
  form background colours in grey bg-secondary, button colours in green bg-success and social links in green: rgb(31, 160, 31) to link the Greener Homes to the colour green.
 
-### Home.html
+## Home.html
 
 This page has a hero image of a beautiful landscape reminding the user of the beauty of the natural environment, inspiring the user to 
 feel calm and to protect the environment. The name of the website ‘Greener Homes’ is displayed, underneath is a concise introduction in the ‘About Us’ section of what 
@@ -149,7 +149,7 @@ over the button it goes a darker green in colour.
 At the bottom of each html page there is a neat row of social links consisting of Facebook, Twitter, Instagram and Youtube. Below that is
 the copyright information.
 
-### Resources.html
+## Resources.html
 
 Under the navbar is a hero image of a row of lightbulbs giving the user a visual cue that this page is for ideas to inspire and inform them. 
 Again the heading ‘Greener Homes’ underneath to keep the style consistent. A brief introduction of what the page consists of to help them 
@@ -168,7 +168,7 @@ Finally, there is the 'Book Resources’ section with five cards each with an im
 and then a link to an external website either the author’s website or where to buy it. When the link is clicked it opens into a new tab so 
 the user does not forget or lose viewing the Greener Homes website.
 
-### Contact.html
+## Contact.html
 
 This is a simple page with a hero image of a beautiful earthship eco home to inspire the user, again the heading title of ‘Greener Homes’ 
 to keep the style consistent. Underneath the section is introduced with a heading ‘Let’s Get in Touch!’ with a little content explaining 
@@ -180,7 +180,7 @@ The form is validated so that the user has to fill in the different sections of 
 submit it. When the user clicks any of the fiels a thin blue border appears. When the user hovers over the 'Submit' button the colour 
 changes to a darker green.
 
-## Features Left to Implement
+# Features Left to Implement
 
 - To be able to actually submit the forms and give an email confirmation that the information was received and welcoming the user to the 
 Greener Homes community.
@@ -239,7 +239,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 # Deployment
 
   
-### How I deployed my First Milestone Project remotely to Github repository:
+## How I deployed my First Milestone Project remotely to Github repository:
 
 1. Go to github.com
 
@@ -260,7 +260,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 [Follow this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 on how to deploy to Github pages.
 
-### How to run code from my First Milestone Project by cloning in Github to Repl:
+## How to run code from my First Milestone Project by cloning in Github to Repl:
 
 1. Go to github.com
 
@@ -278,7 +278,7 @@ on how to deploy to Github pages.
 
 8. Upload folder or files
 
-### How to run code from my First Milestone Project by cloning in Github to Gitpod:
+## How to run code from my First Milestone Project by cloning in Github to Gitpod:
 
 1. Go to github.com
 
@@ -302,69 +302,73 @@ on how to deploy to Github pages.
 
 ## Content
 
-### Text for the home page is from:
+### Text for the home.html is from:
 
-About Us is written by me.
+- About Us is written by me.
 
-Why live in an eco home text from [OffGridWorld](https://offgridworld.com).
+- Why live in an eco home text from [OffGridWorld](https://offgridworld.com).
 
-Brief description of earthships from [Lowcarbon](http://lowcarbon.co.uk/earthship-brighton/earthships).
+- Brief description of earthships from [Lowcarbon](http://lowcarbon.co.uk/earthship-brighton/earthships).
 
-Brief description of shipping container homes from [Mobilbox](https://mobilbox.co.uk).
+- Brief description of shipping container homes from [Mobilbox](https://mobilbox.co.uk).
 
-Tiny house brief description taken from [Living Big in a Tiny House](https://www.livingbiginatinyhouse.com/tiny-house/).
+- Tiny house brief description taken from [Living Big in a Tiny House](https://www.livingbiginatinyhouse.com/tiny-house/).
 
-Brief description of off the grid living taken from [The Smart Survivalist](https://www.thesmartsurvivalist.com/uk-off-grid-living-here-is-how-it-can-be-done/).
+- Brief description of off the grid living taken from [The Smart Survivalist](https://www.thesmartsurvivalist.com/uk-off-grid-living-here-is-how-it-can-be-done/).
 
-Brief description of zero waste living from [Mother Earth Living](https://www.motherearthliving.com/healthy-home/zero-waste-living-zmfz15jfhou).
+- Brief description of zero waste living from [Mother Earth Living](https://www.motherearthliving.com/healthy-home/zero-waste-living-zmfz15jfhou).
 
-Brief description of eco home products from [Onyalife](https://www.onyalife.com/eco-friendly-products/).
+- Brief description of eco home products from [Onyalife](https://www.onyalife.com/eco-friendly-products/).
 
-The text for the resources page and contact us page is written by me.
+- The text for the resources page and contact us page is written by me.
 
 ## Media
 
 ### Images for home.html are from:
 
-Hero image from [Free Images](https://www.freeimages.com/photo/falloxbow-1058032).
+- Hero image from [Free Images](https://www.freeimages.com/photo/falloxbow-1058032).
 
-Image of earthship from [Love Incorporated](https://loveincorporated.blob.core.windows.net/contentimages/gallery/e6d541f3-3496-429b-8bfa-f6a69001b9f0-the-waybee.jpg).
+- Image of earthship from [Love Incorporated](https://loveincorporated.blob.core.windows.net/contentimages/gallery/e6d541f3-3496-429b-8bfa-f6a69001b9f0-the-waybee.jpg).
 
-Image of tiny house from [The Plaid Zebra](https://theplaidzebra.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-16-at-4.08.29-PM.png).
+- Image of tiny house from [The Plaid Zebra](https://theplaidzebra.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-16-at-4.08.29-PM.png).
 
-Image of shipping container from [Container Conversion DB](https://lh3.googleusercontent.com/D2U8cgBhX-EhYfKskQoIYtzVOovVaKPD2SmQ7A1fJsCG36i6taJ31IKYBINjuyuXlSxLYLmCOfrwY28xNHp3FQ=s0).
+- Image of shipping container from [Container Conversion DB](https://lh3.googleusercontent.com/D2U8cgBhX-EhYfKskQoIYtzVOovVaKPD2SmQ7A1fJsCG36i6taJ31IKYBINjuyuXlSxLYLmCOfrwY28xNHp3FQ=s0).
 
-Image for off the grid living [Inhabitat](https://inhabitat.com/solar-powered-forever-home-is-a-modern-take-on-the-rustic-farmhouse/horseshoe-farm-residence-by-buildsense-9/).
+- Image for off the grid living [Inhabitat](https://inhabitat.com/solar-powered-forever-home-is-a-modern-take-on-the-rustic-farmhouse/horseshoe-farm-residence-by-buildsense-9/).
 
-Image for Zero Waste Living [Clean Eating Mag](https://www.cleaneatingmag.com/clean-living/how-to-live-a-zero-waste-life).
+- Image for Zero Waste Living [Clean Eating Mag](https://www.cleaneatingmag.com/clean-living/how-to-live-a-zero-waste-life).
 
-Image for Eco home products [The Lady](https://lady.co.uk/housekeeping-top-tips-eco-cleaning).
+- Image for Eco home products [The Lady](https://lady.co.uk/housekeeping-top-tips-eco-cleaning).
 
-## Images for resources.html are from:
+### Images for resources.html are from:
 
-Hero image is from [Pixabay](https://pixabay.com/photos/light-bulbs-chosen-bulb-light-1875384/).
+- Hero image is from [Pixabay](https://pixabay.com/photos/light-bulbs-chosen-bulb-light-1875384/).
 
-## Video links:
+### Video links:
 
-[Earthships](https://youtu.be/TlntQ9EgOxg)
+All video links are from [You Tube](https://youtube.com):
 
-[Tiny Homes](https://youtu.be/DGLciRYShx4)
+- [Earthships](https://youtu.be/TlntQ9EgOxg)
 
-[Shipping Container Homes](https://youtu.be/iyhQb4Sd-Z4).
+- [Tiny Homes](https://youtu.be/DGLciRYShx4)
 
-Book resources images are taken from [Amazon](https://amazon.co.uk).
+- [Shipping Container Homes](https://youtu.be/iyhQb4Sd-Z4).
+
+### Book resources: 
+
+- Images are taken from [Amazon](https://amazon.co.uk).
 
 ### Image for contact.html is from:
 
-Hero Image for eco home is from [Airbnb](https://www.airbnb.com.au/rooms/16597158?source_impression_id=p3_1589312704_okoQxq9mJ8dwByxV&guests=1&adults=1).
+- Hero Image for eco home is from [Airbnb](https://www.airbnb.com.au/rooms/16597158?source_impression_id=p3_1589312704_okoQxq9mJ8dwByxV&guests=1&adults=1).
 
 ## Code
 
 The code for my footer social links was copied from Code Institute source code for the resume project in the user centric frontend 
 development module.
 
-[CI](https://codeinstitute.net/) tutor helped me clarify what code to use for column sizes and directed me to this [CSS website](https://www.w3schools.com/cssref/pr_background-image.asp)
- to help with background image responsiveness. Which resulted in updating all the hero images on all three pages.
+[CI](https://codeinstitute.net/) tutor helped me clarify what code to use for column sizes and directed me to [W3 Schools](https://www.w3schools.com/cssref/pr_background-image.asp)
+ to help with background image responsiveness. So I was able to make all the hero images on all three pages responsive.
 
 Used code from [CSS Tricks](https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/) to help with font-size responsiveness.
 

@@ -30,16 +30,10 @@ body {
 }
 
 .ecohome-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 50px;
 }
 
 .related-container {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.card-deck-index {
     margin-bottom: 50px;
 }
 
