@@ -1,8 +1,12 @@
-# Testing
+# <p align="center">Testing for [Greener Homes](https://karzuin.github.io/First-milestone-project/)<p>
 
-Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. **Results**: Warnings of use of consecutive hyphens used in comments sections.
 
-Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. **Results**: No errors found.
+
+Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. 
+<br>**Results**: Warnings of use of consecutive hyphens used in comments sections.<br>
+
+Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. 
+<br>**Results**: No errors found.<br>
 
 ## User stories:
 
@@ -50,21 +54,21 @@ too much information.
 
   - Go to navigation menu bar and click on ‘More Resources’. Under the ‘Website Links’ There are three lists corresponding to the three eco home concepts, each list has five links which open up a new tab to an external link giving more information. All links open up into a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
-  **Bug**: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
+  - **Bug**: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
 
-  **Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
+  - **Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
 
-  **Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+  - **Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
 
-  **Debugged**: Changed all the background colour links to light green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
+  - **Debugged**: Changed all the background colour links to light green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
 
 - User doesn’t want to read any more information and wants to watch an informative video of one of the eco home concepts.
 
   - Go the resource page and scroll down to the section ‘Video Links’ there are three short YouTube videos introducing each of the three eco home concepts.
 
-  **Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
+  - **Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
   
-  **Debugged**: Moved the `>` to the end of `allowfullscreen` 
+  - **Debugged**: Moved the `>` to the end of `allowfullscreen` 
 
   - All videos play on the website when you click on them.
 
@@ -80,7 +84,7 @@ too much information.
 
   - Fill in the ‘Full Name’ field, ‘Email Address’ field and ‘Message’ field, if the form has been filled in correctly and click on the ‘Submit’ green button, then it goes to the top of the page and the form clears.
 
-  **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+  - **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
   - If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
@@ -90,7 +94,7 @@ too much information.
 
   - If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
-  **Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+  - **Bug**: After the form is correctly filled and the'Submit' button is clicked, the form goes to the top of the page and the form clears.
 
   - The ‘Submit’ button goes a darker green when you hover over it and when you click it and then goes back to the previous green colour.
 
@@ -100,11 +104,11 @@ too much information.
 
 - User wants to know the cost of an earthship, tiny house or shipping container home in the UK.
 
-  - Go to the resources page and within the website links there is information for how to calculate how much it would cost. As it depends on where you buy land and what size your home is, the modern conveniences you need, where you get your energy source from, where you get your water from and other factors.
+  - There are many factors to consider to find out the cost such as land price, size of house, energy resources, water supply, modern conveniences and technologies. Go to the resources page and in the website links there is information for how much it would cost for these factors.
 
 # Responsiveness of website
 
-## Home.html in Desktop view.
+## [Home.html](https://karzuin.github.io/First-milestone-project/index.html) in Desktop view.
 In desktop mode, the navigation menu bar on the top is fixed and the words are clearly displayed. The screen shows the hero image displaying the full width of the browser. The main heading ‘Greener Homes’ and sub-headings ‘About Us’ and ‘Why live in an eco home?’ and the horizontal dividers and its content are centred on the page.
 
 The three cards displaying the three eco homes are in a row neatly spaced and in line, the content is justified and centred within the border. The green buttons are on the bottom of the card within the border.
@@ -117,27 +121,27 @@ The green form ‘Receive the latest news from Greener Homes’ at the bottom of
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row.
 
-## Home.html in iPad/iPad Pro view.
+## [Home.html](https://karzuin.github.io/First-milestone-project/index.html) in iPad/iPad Pro view.
 
 In iPad mode, the navigation menu bar on the top is fixed and the words are clearly displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens. The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-headings ‘About Us’ and ‘Why live in an eco home?’ and the horizontal dividers and its content are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion to each other.
 
-**Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
-The three cards displaying the three eco homes are in a row neatly spaced and in line, the content is justified and centred within the border. The green buttons are on the bottom of the card within the border. The shape of the cards have elongated to adjust the narrower width but still looks good.
+The three cards displaying the three eco homes are in a row neatly spaced and in line, the content is justified and centred within the border. The green buttons are on the bottom of the card within the border. The shape of the cards adjust to the narrower width and then go from three cards in iPad pro into a single column of cards in iPad view.
 
 The next heading ‘Related Interests’ and the horizontal divider are centred on the page. The font size and length of the horizontal divider have decreased and are in proportion to each other.
 
-The three cards displaying ‘Off Grid Living’, ‘Zero Waste Living’ and ‘Eco Home Products’ are in a neat row equally spaced and in line, the content is centred within the border of the card. The green buttons are on the bottom of the card also within the border. The shape of the cards have elongated to adjust the narrower width but still looks good.
+The three cards displaying ‘Off Grid Living’, ‘Zero Waste Living’ and ‘Eco Home Products’ are in a neat row equally spaced and in line, the content is centred within the border of the card. The green buttons are on the bottom of the card also within the border. The shape of the cards adjust to the narrower width and then go from three cards in iPad pro into a single column of cards in iPad view.
 
 The green form ‘Receive the latest news from Greener Homes’ at the bottom of the page is centred on the page. All the text and text box area is equally spaced and within the border of the form. Everything has decreased in size and is still in proportion to each other.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row.
 
-## Home.html in iPhone X, 6, 7, 8 view.
+## [Home.html](https://karzuin.github.io/First-milestone-project/index.html) in iPhone X, 5, 6, 7, 8 view.
 
 In mobile phone mode, the navigation menu bar on the top is fixed and the burger icon appears. When clicked the drop down menu appears with the ‘Home’, ‘More Resources’ and ‘Contact Us’, when you click on them the font colour goes a dark grey and then goes back to the original light grey.
 
-**Bug**: When you scroll up the top of the burger icon are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top of the burger icon are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
 The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-headings ‘About Us’ and ‘Why live in an eco home?’ and the horizontal dividers and its content are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion to each other.
 
@@ -145,13 +149,13 @@ The three cards displaying the three eco homes are now displaying the full width
 
 The next heading ‘Related Interests’ and the horizontal divider are centred on the page. The font size and length of the horizontal divider have decreased and are in proportion to each other.
 
-The three cards displaying ‘Off Grid Living’, ‘Zero Waste Living’ and ‘Eco Home Products’ are in a neat row equally spaced and in line, the content is centred within the border of the card. The green buttons are on the bottom of the card also within the border. The shape of the cards have elongated to adjust the narrower width but still looks good.
+The three cards displaying ‘Off Grid Living’, ‘Zero Waste Living’ and ‘Eco Home Products’ are in a neat single column equally spaced and in line, the content is centred within the border of the card. The green buttons are on the bottom of the card also within the border. The shape of the cards have adjusted to the narrower width but still looks good.
 
 The green form ‘Receive the latest news from Greener Homes’ at the bottom of the page is centred on the page. All the text and text box area is equally spaced and within the border of the form. Everything has decreased in size and is still in proportion to each other.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row.
 
-## Resources.html in Desktop view.
+## [Resources.html](https://karzuin.github.io/First-milestone-project/resources.html) in Desktop view.
 
 In desktop mode, the navigation menu bar on the top is fixed and the words are displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens.
 
@@ -163,43 +167,43 @@ The three group lists displaying the website links are in three columns, each wi
 
 All links open up to an external website in a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
-**Bug**: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
+- **Bug**: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
 
-**Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
+- **Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
 
-**Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+- **Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
 
-**Debugged**: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
+- **Debugged**: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
 
 The next heading ‘Video Links’ and the horizontal divider are centred on the page.
 
 The three embedded videos are neatly in line and in a row, equally spaced apart. Only the right video can go to full screen when you click the full screen icon.
 
-**Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
+- **Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website. 
 
-**Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
+- **Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
 
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
 
 The five cards displaying the five recommended books: ‘Zero Waste Home’, ‘Tiny House Living’, ‘Building with Cob’ ‘Zero Waste’ and ’How to Live Off Grid’, are in a neat row equally spaced and in line, the content is centred within the border of the card.
 
-**Bug**: There is too much white space between the text and the card footer. 
+- **Bug**: There is too much white space between the text and the card footer. 
 
-**Debugged**: Added media queries to change the height of the card footer for desktop and tablet screens.
+- **Debugged**: Added media queries to change the height of the card footer for desktop and tablet screens.
 
 The green text links are in the card footer also within the border. 
 
-**Bug**: Needs to be centred. 
+- **Bug**: Needs to be centred. 
 
-**Debugged**: Added text-center class.
+- **Debugged**: Added text-center class.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row.
 
-## Resources.html in iPad/iPad Pro view.
+## [Resources.html](https://karzuin.github.io/First-milestone-project/resources.html) in iPad/iPad Pro view.
 
 In iPad mode, the navigation menu bar on the top is fixed and the words are clearly displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens.
 
-**Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
 The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-headings ‘More Resources’, its content, ’Website Links’ and the horizontal dividers and its content are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion in relation to each other.
 
@@ -207,41 +211,42 @@ The three group lists displaying the website links are in three columns, each wi
 
 All links open up to an external website in a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
-**Bug**: The last link of the three lists has a yellow border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that. The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+- **Bug**: The last link of the three lists has a yellow border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that. The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
 
-**Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked so it's easier for the user to know which link they last clicked on. The background of the links go a darker green when you hover over them.
+- **Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked so it's easier for the user to know which link they last clicked on. The background of the links go a darker green when you hover over them.
  
 The next heading ‘Video Links’ and the horizontal divider are centred on the page.
 
-The three embedded videos are neatly in line and in a row, equally spaced apart. All videos play but only the right video can go to full screen when you click the full screen icon.
+The three embedded videos are neatly in line and in a row, equally spaced apart in iPad Pro view. The shape of the videos adjust to the narrower width and then go from one row into two rows in iPad view, with two videos on the top and one video on the bottom, centered on the page. All videos play but only the right video can go to full screen when you click the full screen icon.
 
-**Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
+- **Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
 
-**Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
+- **Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
 
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
 
 The five cards displaying the five recommended books: ‘Zero Waste Home’, ‘Tiny House Living’, ‘Building with Cob’ ‘Zero Waste’ and ’How to Live Off Grid’, are in a neat row equally spaced and in line, the content is centred within the border of the card.
+The shape of the cards adjust to the narrower width and then go from five cards in iPad pro into two rows of cards in iPad view with three cards on the top row and two cards on the bottom row and centred in the page.
 
 All links opens up a new tab to the external website.
 
-**Bug**: There is too much white space between the text and the card footer.
+- **Bug**: There is too much white space between the text and the card footer.
 
-**Debugged**: Added media queries to change the height of the card footer for desktop and tablet screens.
+- **Debugged**: Added media queries to change the height of the card footer for desktop and tablet screens.
 
 The green text links are in the card footer are within the border. 
 
-**Bug**: Needs to be centred.
+- **Bug**: Needs to be centred.
 
-**Debugged**: Added text-center class.
+- **Debugged**: Added text-center class.
  
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
 
-## Resources.html in iPhone X, 6, 7, 8 view.
+## [Resources.html](https://karzuin.github.io/First-milestone-project/resources.html) in iPhone X, 5, 6, 7, 8 view.
 
 In mobile phone mode, the navigation menu bar on the top is fixed and the burger icon appears. When clicked the drop down menu appears with the ‘Home’, ‘More Resources’ and ‘Contact Us’, when you click on them the font colour goes a dark grey and then goes back to the original light grey.
 
-**Bug**: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
 The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-headings ‘More Resources’, the content and ‘Website Links’ and the horizontal dividers are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion to each other.
 
@@ -249,23 +254,23 @@ The three group lists displaying the website links are in one column displaying 
 
 All links open up to an external website in a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
-**Bug**: The last link of the three lists has a yellow border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that. 
+- **Bug**: The last link of the three lists has a yellow border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that. 
 
-**Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
+- **Debugged**: Added the same code from the last link to the rest of the links. Now they all show a blue border when the link has been clicked.
 
-**Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
+- **Bug**: The other three white background links go light grey when it has been clicked and the green background link does not indicate anything when clicked.
 
-**Debugged**: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
+- **Debugged**: Changed all the background colour links to green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
   
 The next heading ‘Video Links’ and the horizontal divider are centred on the page.
 
 The three embedded videos are neatly in one column fitting the width of the screen with margin, equally spaced apart. All videos play but only the right video can go to full screen when you click the full screen icon.
 
-**Bug**: When in full screen the full screen icon disappears but if you click in that area it goes back to a smaller screen.
+- **Bug**: When in full screen the full screen icon disappears but if you click in that area it goes back to a smaller screen.
 
-**Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
+- **Bug**: The left and middle videos are unable to go to full screen within the website, only if you click ‘YouTube’ to watch via the Youtube website.
 
-**Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
+- **Debugged**: Rectified by moving the `>` at the end of `allowfullscreen`
   
 The next heading ‘Book Resources’ and the horizontal divider are centred on the page.
 
@@ -275,23 +280,23 @@ All links opens up a new tab to the external website.
 
 The green text links are in the card footer are within the border. 
 
-**Bug**: Text needs to be centred.
+- **Bug**: Text needs to be centred.
 
-**Debugged**: Added text-center class.
+- **Debugged**: Added text-center class.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
 
-## Contact.html in desktop view.
+## [Contact.html](https://karzuin.github.io/First-milestone-project/contact.html) in desktop view.
 
 In desktop mode, the navigation menu bar on the top is fixed and the words are displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens.
 
 The screen shows the hero image displaying the full width of the browser. The main heading ‘Greener Homes’ and sub-heading ‘Let’s Get In Touch’ its content and the horizontal dividers are centred on the page.
 
-The form is centred is centred on the page. All the text and text box areas are equally spaced and within the border of the form.
+The form is centred on the page. All the text and text box areas are equally spaced and within the border of the form.
 
 When user selects a text area a thin blue border appears.
 
-**Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+- **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
 If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
@@ -301,27 +306,29 @@ If the ‘Email Address’ field is not valid and you click the ‘Submit’ but
 
 If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
-**Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+- **Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+
+- **Bug**: When the form is filled correctly and the 'Submit' button is clicked the form goes to the top of the page and the form clears.
 
 When you click the ‘Submit’ button it goes a darker green and then goes back to the previous green colour.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links open into a new tab to the external website.
 
-## Contact.html in iPad/iPad Pro view.
+## [Contact.html](https://karzuin.github.io/First-milestone-project/contact.html) in iPad/iPad Pro view.
 
 In iPad mode, the navigation menu bar on the top is fixed and the words are displayed. The ‘Home’, ‘More Resources’ and ‘Contact Us’ text, once clicked the font colour goes a dark grey and then goes back to the original light grey and the page opens.
 
-**Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top of the words are hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
 The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-heading ‘Let’s Get In Touch!’, its content and the horizontal dividers are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion in relation to each other.
 
-The form is centred is centred on the page. All the text and text box areas are equally spaced and within the border of the form.
+The form is centred on the page. All the text and text box areas are equally spaced and within the border of the form.
 
 When user selects a text area a thin blue border appears. 
 
-**Bug**: Border is too thin it's very hard to see.
+- **Bug**: Border is too thin it's very hard to see.
 
-**Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+- **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
 If the ‘Full Name’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
@@ -331,17 +338,19 @@ If the ‘Email Address’ field is not valid and you click the ‘Submit’ but
 
 If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
-**Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+- **Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+
+- **Bug**: When the form is filled correctly and the 'Submit' button is clicked the form goes to the top of the page and the form clears.
 
 When you click the ‘Submit’ button it goes a darker green and stays that colour until you click on another part of the screen.
 
 The horizontal divider and social links are centred at the bottom of the page. The social media links are equally spaced and in a row. All links opens up a new tab to the external website.
 
-## Contact.html in iPhone X, 6, 7, 8 view.
+## [Contact.html](https://karzuin.github.io/First-milestone-project/contact.html) in iPhone X, 5, 6, 7, 8 view.
 
 In mobile phone mode, the navigation menu bar on the top is fixed and the burger icon appears. When clicked the drop down menu appears with the ‘Home’, ‘More Resources’ and ‘Contact Us’, when you click on them the font colour goes a dark grey and then goes back to the original light grey.
 
-**Bug**: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+- **Bug**: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
 The hero image displays the full width of the browser with no distortions just trimmed on either side of the image. The main heading ‘Greener Homes’ and sub-headings ‘Let’s Get In Touch’, the content the horizontal dividers are centred on the page. The fonts have decreased in size to adjust to the smaller size and looks in proportion to each other.
 
@@ -349,9 +358,9 @@ The form is centred on the page. All the text and text box areas are equally spa
 
 When user selects a text area a thin blue border appears. 
 
-**Bug**: The border is too thin it's very hard to see.
+- **Bug**: The border is too thin it's very hard to see.
 
-**Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+- **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
 If the ‘Email Address’ field is not filled and user clicks 'Submit' then the message ‘Please fill in this field’ appears.
 
@@ -361,7 +370,9 @@ If the ‘Email Address’ field is not valid and you click the ‘Submit’ but
 
 If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
-**Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+- **Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+
+- **Bug**: When the form is filled correctly and the 'Submit' button is clicked the form goes to the top of the page and the form clears.
 
 When you click the ‘Submit’ button it goes a darker green and stays that colour until you click on another part of the screen.
 
@@ -371,13 +382,10 @@ The horizontal divider and social links are centred at the bottom of the page. T
 
 [Google Chrome](https://google.com) all the testing information has been tested on Chrome browser using DevTools.
 
-[Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/new/) browser responsiveness is good on desktop, tablet and phone. Only difference found 
-is the website links on the 'Resources page' where the blue border does not appear but when clicked the cell is a darker shade of green and stays that way when the user come back
-the Greener Homes site.
+[Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/new/) and [Internet Explorer](https://www.microsoft.com/en-gb/download/internet-explorer.aspx) browsers responsiveness is good on desktop, tablet and phone. Only difference found 
+is the website links on the 'Resources page' where the blue border does not appear but when clicked the cell is a darker shade of green and stays that way when the user come back the Greener Homes site.
 
 [Safari](https://www.apple.com/uk/safari/) browser responsiveness is the same as Chrome browser, no bugs.
-
-[Internet Explorer](https://www.microsoft.com/en-gb/download/internet-explorer.aspx) browser responsiveness is good 
 
 ## Bugs whilst creating the website:
 
@@ -407,13 +415,16 @@ Responsiveness of card decks on all screen sizes was rectified by using code fro
 
 ## Bugs to be fixed:
 
-The following bugs would need to be fixed if they have backend technology connected to them but as this is only frontend technology there is no need to fix at this point.
+When in full screen on a phone device, the full screen icon disappears but if you click in that area it goes back to a smaller screen.
 
-- **Bug**: When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
+#### The following bugs would need to be fixed if they have backend technology connected to them but as this is only frontend technology there is no need to fix at this point.
 
-- **Bug**: The blue border in the form fields when they are clicked are too thin it's very hard to see in tablet or phone view.
+When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 
-- **Bug**: The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
+The blue border in the form fields when they are clicked are too thin it's very hard to see in tablet or phone view.
 
-- **Bug**: The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+The ‘Full Name’ field is accepting all characters and numbers and just one name. So would like to validate it so it only accepts letters and two names at least.
 
+The form goes to the top of the page and the form clears when the ‘Full Name’ and ‘Email Address’ fields are filled, even without the ‘Message’ field being filled.
+
+When the form is filled correctly and the 'Submit' button is clicked the form goes to the top of the page and the form clears.
