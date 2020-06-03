@@ -1,7 +1,6 @@
 
 # <p align="center">[Greener Homes](https://karzuin.github.io/First-milestone-project/)</p>
 
-
 A website for users who would like to know more about ecologically sustainable houses, environmentally friendly lifestyle and affordable housing. 
 The website consists of a 3 page website with beautiful quality photos, pleasing to the eye, inspiring to look at and simple, not too 
 much text, as for myself I don’t like busy looking websites, I like simplicity and beauty. As too much information gets confusing, messy 
@@ -89,7 +88,7 @@ found on the website, or send other comments or messages or click on the social 
 
 - As a user, I want to know what kind of resources are available to help me know more about eco homes.
 
-- As a user, I wasn’t able to find the information needed so would like to contact Greener Homes via the contact page.
+- As a user, I want to find more information, so would like to contact Greener Homes via the contact page.
 
 - As a user, I have read through the information of the home page and feel this is too much change in my life but still want to change a 
 small part of my lifestyle and want to know what eco products I can buy.
@@ -117,8 +116,10 @@ All three pages consists of a fixed navigation menu bar on top where you can cli
 the current page. The three pages also consist of the same footer with four social links taking them to a new tab with the relevant social 
 media homepage as there are no Greener Homes social media accounts. Underneath is the copyright information.
 
-I chose a simple clean font called 'Open Sans' to stay consistent with the overall look of being simple and clean. The font colours of grey: rgb(69, 71, 69),
- form background colours in grey bg-secondary, button colours in green bg-success and social links in green: rgb(31, 160, 31) to link the Greener Homes to the colour green.
+I chose a simple clean font called 'Open Sans' to stay consistent with the overall look of being simple and clean. 
+
+The font colours of grey: `rgb(69, 71, 69)` form background colours in grey `bg-secondary`, button colours in green `bg-success` and 
+social links in green: `rgb(31, 160, 31)` to link the Greener Homes to the colour green.
 
 ## [Home.html](https://karzuin.github.io/First-milestone-project/index.html)
 
@@ -245,7 +246,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 # Deployment
 
   
-## How I deployed my First Milestone Project remotely to Github repository:
+### How I deployed my First Milestone Project remotely to Github repository:
 
 1. Go to [GitHub.com](https://github.com/)
 
@@ -266,7 +267,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
    [Follow this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 on how to deploy to Github pages.
 
-## How to run code from my First Milestone Project by cloning in Github to Repl:
+### How to run code from my First Milestone Project by cloning in Github to Repl:
 
 1. Go to [GitHub.com](https://github.com/)
 
@@ -284,7 +285,7 @@ on how to deploy to Github pages.
 
 8. Upload folder or files
 
-## How to run code from my First Milestone Project by cloning in Github to Gitpod:
+### How to run code from my First Milestone Project by cloning in Github to Gitpod:
 
 1. Go to [GitHub.com](https://github.com/)
 
@@ -306,9 +307,9 @@ on how to deploy to Github pages.
 
 # Credits
 
-## Content
+### Content
 
-### Text for the home.html is from:
+#### Text for the home.html:
 
 - About Us is written by me.
 
@@ -328,9 +329,9 @@ on how to deploy to Github pages.
 
 - The text for the resources page and contact us page is written by me.
 
-## Media
+### Media
 
-### Images for home.html are from:
+#### Images for home.html:
 
 - Hero image from [Free Images](https://www.freeimages.com/photo/falloxbow-1058032).
 
@@ -346,11 +347,11 @@ on how to deploy to Github pages.
 
 - Image for Eco home products [The Lady](https://lady.co.uk/housekeeping-top-tips-eco-cleaning).
 
-### Images for resources.html are from:
+#### Images for resources.html:
 
 - Hero image is from [Pixabay](https://pixabay.com/photos/light-bulbs-chosen-bulb-light-1875384/).
 
-### Video links:
+#### Video links for resources.html:
 
 All video links are from [You Tube](https://youtube.com):
 
@@ -360,15 +361,17 @@ All video links are from [You Tube](https://youtube.com):
 
 - [Shipping Container Homes](https://youtu.be/iyhQb4Sd-Z4).
 
-### Book resources: 
+#### Book images for resources.html: 
 
-- Images are taken from [Amazon](https://amazon.co.uk).
+- Images and 'To Buy' links are taken from [Amazon](https://amazon.co.uk).
 
-### Image for contact.html is from:
+- Website link [Zero Waste Home](https://zerowastehome.com/).
+
+#### Image for contact.html:
 
 - Hero Image for eco home is from [Airbnb](https://www.airbnb.com.au/rooms/16597158?source_impression_id=p3_1589312704_okoQxq9mJ8dwByxV&guests=1&adults=1).
 
-## Code
+### Code
 
 The code for my footer social links were copied from Code Institute source code for the resume project in the user centric frontend 
 development module.

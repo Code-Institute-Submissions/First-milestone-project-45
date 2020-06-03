@@ -10,39 +10,39 @@ Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the di
 
 ## User stories:
 
-- User wants a simple and clean looking website as messy, busy pages with lots of information overwhelms them.
+- As a user, I want a simple and clean looking website as messy, busy pages with lots of information overwhelms them.
 
   - User views the homepage and sees that the colour scheme and layout is very clean and simple, the images and content is well spaced out.
 With 3 pages all with the same consistent style, with quality images and brief descriptions throughout so not to overwhelm users with 
 too much information.
 
-- User wants an easy to navigate website to save time and not get frustrated or lost.
+- As a user, I want an easy to navigate website to save time and not get frustrated or lost.
 
   - User goes to the website and on the home page, resource page and contact us page there is a simple navigation bar fixed on the top of the page. Wherever they scroll down to on each page the navigation menu bar is there for them to click and go to another page. When you hover over the words the colour of the text goes a darker grey colour.
 
-- User wants to be able to use it on desktop, tablet and mobile devices.
+- As a user, I want to be able to use it on desktop, tablet and mobile devices.
 
   - Users who are browsing with Chrome, Safari, Firefox and IE can use the website on desktop, tablet and mobile views with full responsiveness.
 
-- User wants to find out what eco homes are.
+- As a user, I want to find out what eco homes are.
 
   - Go to the home page and scroll down to underneath the ‘About Us’ section is ‘Why live in an eco home?’ This section gives an explanation of the benefits and what eco homes are.
 
-- User is interested in one of the three eco home concepts introduced and would like to know more.
+- As a user, I am interested in one of the three eco home concepts introduced and would like to know more.
 
   - Go to the home page and scroll down to the section underneath the ‘Why live in an eco home?’ And there are three cards each introducing a different eco home concept with a corresponding image. When you hover over the ‘More Info’ green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
 
-- User wants to find out more about one of the three related interests introduced on the home page.
+- As a user, I want to find out more about one of the three related interests introduced on the home page.
 
   - Go to the home page and scroll down to the ‘Related Interests’ section where there are three cards introducing ‘Off Grid Living’, or ‘Zero Waste Living’ or ‘Eco Home Products’ with a corresponding image. When you hover over the green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
 
-- User would like to sign up to Greener Homes latest news.
+- As a user, I would like to sign up to Greener Homes latest news.
 
   - Go to the bottom of the home page by scrolling down and there is a green form labelled ‘Receive the latest news from Greener Homes’.
 
-  - If you hover over the ‘Sign Up!’ Area the button goes a darker green colour but does not stay dark green. This does not happen in iPad or phone view it only goes a darker green when it is clicked on and it stays dark green until you click another area of the screen.
+  - If user hovers over the ‘Sign Up!’ button it goes a darker green colour but does not stay dark green. This does not happen in iPad or phone view it only goes a darker green when it is clicked on and it stays dark green until you click another area of the screen.
 
-  - If you click on the ‘Sign Up!’ The button without filling in the form it will indicate with a message to ‘Please fill in this field’ indicating the area to type into.
+  - If user clicks on the ‘Sign Up!’ button without filling in the form it will indicate with a message to ‘Please fill in this field’ indicating the area to type into.
 
   - If the form has been filled in but with an invalid email address and you click the ‘Sign Up!’ Button then another message comes up ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘.
 
@@ -50,7 +50,7 @@ too much information.
 
   - If the form has been filled correctly with a full email address and you click the ‘Sign Up!’ Button then the page goes to the top and the form clears.
 
-- User wants to know even more information about one of the eco homes introduced on the home page.
+- As a user, I want to know even more information about one of the eco homes introduced on the home page.
 
   - Go to navigation menu bar and click on ‘More Resources’. Under the ‘Website Links’ There are three lists corresponding to the three eco home concepts, each list has five links which open up a new tab to an external link giving more information. All links open up into a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
@@ -62,7 +62,7 @@ too much information.
 
   - **Debugged**: Changed all the background colour links to light green and added the border code to all the links. Now when user hovers over the link it goes a darker green and when clicked shows a blue border to indicate it was the last link clicked.
 
-- User doesn’t want to read any more information and wants to watch an informative video of one of the eco home concepts.
+- As a user, I want to watch an informative video of one of the eco home concepts.
 
   - Go the resource page and scroll down to the section ‘Video Links’ there are three short YouTube videos introducing each of the three eco home concepts.
 
@@ -72,11 +72,11 @@ too much information.
 
   - All videos play on the website when you click on them.
 
-- User wants to know what kind of resources are available to help them know more about eco homes.
+- As a user, I want to know what kind of resources are available to help them know more about eco homes.
 
   - Go to the resource page and when you scroll down you will find three types: Website Links, Video Links and Book Resources.
 
-- User wasn’t able to find the information they needed so would like to contact Greener Homes via the contact page.
+- As a user, I want to find out more information, so would like to contact Greener Homes via the contact page.
 
   - Go to the navigation menu bar and click on ‘Contact Us’
 
@@ -98,11 +98,11 @@ too much information.
 
   - The ‘Submit’ button goes a darker green when you hover over it and when you click it and then goes back to the previous green colour.
 
-- User has read through the information of the home page and feels this is too much change in their lives but still wants to change a small part of their lifestyle and wants to know what eco products they can buy.
+- As a user, I have read through the information on the home page and feel this is too much change in my life but I still want to change a small part of my lifestyle, so I to know what eco products to buy.
 
   - Go to the navigation menu bar and click on ‘Home’, scroll down to the ‘Related Interests’ section and click on ‘More Info’ in the ‘Eco Home Products’ card.
 
-- User wants to know the cost of an earthship, tiny house or shipping container home in the UK.
+- As a user, I want to know the cost of an earthship, tiny house or shipping container home in the UK.
 
   - There are many factors to consider to find out the cost such as land price, size of house, energy resources, water supply, modern conveniences and technologies. Go to the resources page and in the website links there is information for how much it would cost for these factors.
 
