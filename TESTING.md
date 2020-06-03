@@ -18,7 +18,9 @@ too much information.
 
 - As a user, I want an easy to navigate website to save time and not get frustrated or lost.
 
-  - User goes to the website and on the home page, resource page and contact us page there is a simple navigation bar fixed on the top of the page. Wherever they scroll down to on each page the navigation menu bar is there for them to click and go to another page. When you hover over the words the colour of the text goes a darker grey colour.
+  - User goes to the website and on the home page, resource page and contact us page there is a simple navigation bar fixed on the top of the page. Wherever they scroll down to on each page the navigation menu bar is there for them to click and go to another page. 
+  
+  - When you hover over the words the colour of the text goes a darker grey colour.
 
 - As a user, I want to be able to use it on desktop, tablet and mobile devices.
 
@@ -30,11 +32,15 @@ too much information.
 
 - As a user, I am interested in one of the three eco home concepts introduced and would like to know more.
 
-  - Go to the home page and scroll down to the section underneath the ‘Why live in an eco home?’ And there are three cards each introducing a different eco home concept with a corresponding image. When you hover over the ‘More Info’ green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
+  - Go to the home page and scroll down to the section underneath the ‘Why live in an eco home?’ And there are three cards each introducing a different eco home concept with a corresponding image. 
+  
+  - When you hover over the ‘More Info’ green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
 
 - As a user, I want to find out more about one of the three related interests introduced on the home page.
 
-  - Go to the home page and scroll down to the ‘Related Interests’ section where there are three cards introducing ‘Off Grid Living’, or ‘Zero Waste Living’ or ‘Eco Home Products’ with a corresponding image. When you hover over the green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
+  - Go to the home page and scroll down to the ‘Related Interests’ section where there are three cards introducing ‘Off Grid Living’, or ‘Zero Waste Living’ or ‘Eco Home Products’ with a corresponding image. 
+  
+  - When you hover over the green buttons they turn a darker green colour. To find out more click on the green button ‘More Info’ and it will open a new tab to an external website, the green button also stays a dark green with a light green border around it, to indicate it has been clicked.
 
 - As a user, I would like to sign up to Greener Homes latest news.
 
@@ -52,7 +58,9 @@ too much information.
 
 - As a user, I want to know even more information about one of the eco homes introduced on the home page.
 
-  - Go to navigation menu bar and click on ‘More Resources’. Under the ‘Website Links’ There are three lists corresponding to the three eco home concepts, each list has five links which open up a new tab to an external link giving more information. All links open up into a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
+  - Go to navigation menu bar and click on ‘More Resources’. Under the ‘Website Links’ There are three lists corresponding to the three eco home concepts, each list has five links which open up a new tab to an external link giving more information. 
+  
+  - All links open up into a new tab so the user doesn’t forget Greener Homes website and can go back to it easily.
 
   - **Bug**: The last link of the three lists has a blue border once it has been clicked which is useful for the user to know when they come back from the external link which was the last link they clicked. But the other links do not do that.
 
