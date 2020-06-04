@@ -10,7 +10,7 @@ Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the di
 
 ## User stories:
 
-- As a user, I want a simple and clean looking website as messy, busy pages with lots of information overwhelms them.
+- As a user, I want a simple and clean looking website as messy, busy pages with lots of information overwhelms me.
 
   - User views the homepage and sees that the colour scheme and layout is very clean and simple, the images and content is well spaced out.
 With 3 pages all with the same consistent style, with quality images and brief descriptions throughout so not to overwhelm users with 
@@ -106,7 +106,7 @@ too much information.
 
   - The ‘Submit’ button goes a darker green when you hover over it and when you click it and then goes back to the previous green colour.
 
-- As a user, I have read through the information on the home page and feel this is too much change in my life but I still want to change a small part of my lifestyle, so I to know what eco products to buy.
+- As a user, I have read through the information on the home page and feel this is too much change in my life but I still want to change a small part of my lifestyle, so I want to know what eco products to buy.
 
   - Go to the navigation menu bar and click on ‘Home’, scroll down to the ‘Related Interests’ section and click on ‘More Info’ in the ‘Eco Home Products’ card.
 
