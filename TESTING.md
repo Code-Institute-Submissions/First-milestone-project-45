@@ -4,21 +4,21 @@ Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website v
 
 1. Index.html validator results.
 
-<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-index.png"></p>
+<p align="center"><img width="350" height="300" src="readme-images/htmlvalid-index.png"></p>
 
 2. Resources.html validator results.
 
-<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-resources.png"></p>
+<p align="center"><img width="350" height="300" src="readme-images/htmlvalid-resources.png"></p>
 
 3. Contact.html validator results.
 
-<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-contact.png"></p>
+<p align="center"><img width="350" height="300" src="readme-images/htmlvalid-contact.png"></p>
 
 Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. 
 
 4. Style.css validator results.
 
-<p align="center"><img width="250" height="300" src="readme-images/cssvalidator-ms1.png"></p>
+<p align="center"><img width="350" height="300" src="readme-images/cssvalidator-ms1.png"></p>
 
 ## User stories:
 
