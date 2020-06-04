@@ -201,11 +201,14 @@ eco home products.
 
 # Technologies Used
 
-- [Gitpod](https://gitpod.io/) IDE (Integrated Development Environment).
+- [Gitpod](https://gitpod.io/) 
+  - IDE (Integrated Development Environment).
 
-- [GitHub](github.com/) hosting platform. 
+- [GitHub](github.com/) 
+  - The remote hosting platform. 
 
-- [HTML 5](https://en.wikipedia.org/wiki/HTML5) and [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) programming languages were used for this project.
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5) and [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+  - The programming languages used for this project.
 
 - [Bootstrap](https://getbootstrap.com/) 4 CDN 
   - To be easily responsive, navbar, the list groups, card decks and forms were used to give a clean, simple and ordered look. I wanted to re-inforce what I had learnt from the UCFD module.
@@ -246,7 +249,7 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 # Deployment
 
   
-### How I deployed my First Milestone Project remotely to Github repository:
+### How I deployed my First Milestone Project remotely to Github pages:
 
 1. Go to [GitHub.com](https://github.com/)
 

@@ -1,12 +1,24 @@
 # <p align="center">Testing for [Greener Homes](https://karzuin.github.io/First-milestone-project/)<p>
 
-
-
 Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website via the direct input path. 
-<br>**Results**: Warnings of use of consecutive hyphens used in comments sections.<br>
+
+1. Index.html validator results.
+
+<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-index.png"></p>
+
+2. Resources.html validator results.
+
+<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-resources.png"></p>
+
+3. Contact.html validator results.
+
+<p align="center"><img width="250" height="300" src="readme-images/htmlvalid-contact.png"></p>
 
 Used [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) via the direct input path. 
-<br>**Results**: No errors found.<br>
+
+4. Style.css validator results.
+
+<p align="center"><img width="250" height="300" src="readme-images/cssvalidator-ms1.png"></p>
 
 ## User stories:
 
@@ -423,9 +435,7 @@ Responsiveness of card decks on all screen sizes was rectified by using code fro
 
 ## Bugs to be fixed:
 
-When in full screen on a phone device, the full screen icon disappears but if you click in that area it goes back to a smaller screen.
-
-#### The following bugs would need to be fixed if they have backend technology connected to them but as this is only frontend technology there is no need to fix at this point.
+When in video full screen on a phone device, the small screen icon disappears but if you click in that area it goes back to a smaller screen.
 
 When you scroll up the top part of the burger icon is hidden on the navigation bar but still clickable. For the top margin to appear user has to scroll down.
 

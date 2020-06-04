@@ -41,7 +41,6 @@ body {
     width: 100%;
 }
 
-
 /*------------------RESOURCES.html-----------------------*/
 
 .col-md-12.resource-heroimage {
@@ -70,6 +69,7 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 .container.website-links-container {
     padding: 20px;
     margin-bottom: 30px;
@@ -89,6 +89,7 @@ body {
     padding: 20px;
     margin-bottom: 30px;
 }
+
 .video-link {
     padding: 10px;
 }
@@ -152,7 +153,6 @@ footer {
     text-align: center;
     color: rgb(69, 71, 69);
 }
-
 
 /*-------------------MEDIA QUERIES--------------------*/
 
